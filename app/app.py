@@ -7,7 +7,7 @@ import streamlit as st
 
 MODEL_PATH = Path(__file__).resolve().parents[1] / "models" / "churn_model.joblib"
 
-st.set_page_config(page_title="Customer Churn Predictor", page_icon="📊")
+st.set_page_config(page_title="Customer Churn Predictor")
 st.title("Customer Churn Predictor")
 st.write("Estimate a customer's probability of churn.")
 
