@@ -2,6 +2,10 @@
 
 A telecom customer churn prediction project that combines data cleaning, business analysis, exploratory data analysis, machine learning, customer risk scoring, and a Streamlit prediction app.
 
+## Live Demo
+
+[Open the Customer Churn Predictor](https://customerchurnprediction-by-aman.streamlit.app/)
+
 ## Business Problem
 
 Telecom companies want to identify customers who are likely to leave so that retention teams can contact them before churn occurs.
