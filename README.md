@@ -6,6 +6,10 @@ A telecom customer churn prediction project that combines data cleaning, busines
 
 [Open the Customer Churn Predictor](https://customerchurnprediction-by-aman.streamlit.app/)
 
+## Project Preview
+
+![Customer Churn Predictor dashboard](images/churn_dashboard.svg)
+
 ## Business Problem
 
 Telecom companies want to identify customers who are likely to leave so that retention teams can contact them before churn occurs.
@@ -132,6 +136,9 @@ Customer_Churn_Prediction/
 |   |-- cleaned_churn.csv
 |   `-- churn_scored.csv
 |
+|-- images/
+|   `-- churn_dashboard.svg
+|
 |-- models/
 |   `-- churn_model.joblib
 |
@@ -143,6 +150,27 @@ Customer_Churn_Prediction/
 |
 `-- README.md
 ```
+
+## Add Images to GitHub
+
+To add images to this repository:
+
+1. Put the image file inside the `images/` folder.
+2. Use a relative path in Markdown like:
+
+```md
+![Customer Churn Predictor dashboard](images/churn_dashboard.svg)
+```
+
+3. Commit and push the file:
+
+```bash
+git add images/churn_dashboard.svg README.md
+git commit -m "Add project dashboard image"
+git push origin main
+```
+
+You can also upload screenshots from the Streamlit app or charts generated in notebooks to the same `images/` folder.
 
 ## Reproducing the Project
 
