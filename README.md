@@ -107,11 +107,12 @@ The Streamlit app allows a user to enter customer information and receive:
 
 - Churn probability
 - Risk category
+- An interactive customer risk table with sorting and filtering
 
 Run the application from the project root:
 
 ```powershell
-pip install pandas numpy scikit-learn matplotlib seaborn joblib streamlit
+pip install pandas numpy scikit-learn matplotlib seaborn joblib streamlit streamlit-aggrid
 streamlit run app\app.py
 ```
 
